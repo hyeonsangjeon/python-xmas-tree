@@ -39,7 +39,6 @@ yellow = []
 red = []
 green = []
 blue = []
-sibal = []
 
 for i, c in enumerate(tree):
     if c == 'Y':
