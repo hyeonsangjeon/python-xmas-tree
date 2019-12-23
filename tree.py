@@ -11,13 +11,13 @@ tree = list(open('tree.txt').read().rstrip())
 
 def colored_dot(color):
     if color == 'red':
-        return f'\033[91m❤︎\033[0m'
+        return '\033[91m❤︎\033[0m'
     if color == 'green':
-        return f'\033[92m★︎\033[0m'
+        return '\033[92m★︎\033[0m'
     if color == 'yellow':
-        return f'\033[93m★︎\033[0m'
+        return '\033[93m★︎\033[0m'
     if color == 'blue':
-        return f'\033[94m★︎\033[0m'
+        return '\033[94m★︎\033[0m'
 
 
 def lights(color, indexes):
